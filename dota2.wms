@@ -126,7 +126,7 @@
 			/>
 			<button
 				id           = "nxt"
-				left         = "529"
+				left         = "579"
 				top          = "455"
 				image        = "skip_right_button.png"
 				mappingImage = "main_mask.png"
