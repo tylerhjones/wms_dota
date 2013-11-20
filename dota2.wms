@@ -80,14 +80,14 @@
 
 			<!-- volume text -->
 			<text
-				id="volumeText"
-				top="330"
-				left="660"
-				width="200"
-				fontSize="17"
-				justification="center"
-				forgroundcolor="white"
-				value="wmpprop:player.settings.volume"
+				id             = "volumeText"
+				top            = "240"
+				left           = "750"
+				width          = "200"
+				fontSize       = "25"
+				justification  = "center"
+				forgroundcolor = "#345DE5"
+				value          = "wmpprop:player.settings.volume"
 			/>
 		</subview>
 
