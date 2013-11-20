@@ -93,7 +93,7 @@
 			<pausebutton
 				visible = "wmpenabled:player.controls.pause"
 				zindex  = "2"
-				left    = "430"
+				left    = "429"
 				top     = "425"
 				cursor  = "hand"
 				image   = "play_pause_button.png"
@@ -101,14 +101,38 @@
 
 			<button
 				id           = "play"
-				left         = "430"
-				top          = "425"
+				left         = "429"
+				top          = "424"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00fafa"
 				onclick      = "jscript:player.controls.play()"
 				enabled      = "wmpenabled:player.controls.play()"
 				cursor       = "hand"
+			/>
+
+			<!-- skip buttons -->
+			<button
+				id           = "pre"
+				left         = "400"
+				top          = "470"
+				image        = "skip_left_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#fcf600"
+				cursor       = "hand"
+				onclick      = "jscript:player.controls.previous()"
+				enabled      = "wmpenabled:player.controls.previous()"
+			/>
+			<button
+				id           = "nxt"
+				left         = "470"
+				top          = "470"
+				image        = "skip_right_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#fcf600"
+				cursor       = "hand"
+				onclick      = "jscript:player.controls.next()"
+				enabled      = "wmpenabled:player.controls.next()"
 			/>
 
 		</subview>
