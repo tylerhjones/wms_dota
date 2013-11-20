@@ -92,9 +92,9 @@
 			<!-- buttons -->
 			<button
 				id           = "pre"
-				left         = "0"
-				top          = "0"
-				image        = "main.png"
+				left         = "600"
+				top          = "500"
+				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fcf600"
 				onclick      = "jscript:player.controls.previous()"
