@@ -11,19 +11,20 @@
 		<subview
 			backgroundImage="main.png" >
 		</subview>
+		<text
+			top             = "10"
+			left            = "10"
+			width           = "250"
+			height          = "30"
+			backgroundColor = "none"
+			foregroundColor = "#A2C17C"
+			scrolling       = "true"
+			justification   = "left"
+			scrollingDelay  = "50"
+			value           = "wmpprop:player.status"
+		/>
 	</view>
 
 	<!-- current song name -->
-	<text
-		top="10"
-		left="10"
-		width="250"
-		height = "30"
-		backgroundColor = "none"
-		foregroundColor = "#A2C17C"
-		scrolling = "true"
-		justification = "left"
-		scrollingDelay = "50"
-		value="wmpprop:player.status"
-		/>
+
 </theme>
