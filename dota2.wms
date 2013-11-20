@@ -81,10 +81,10 @@
 			<!-- volume text -->
 			<text
 				id             = "volumeText"
-				top            = "245"
-				left           = "760"
+				top            = "242"
+				left           = "763"
 				width          = "200"
-				fontSize       = "30"
+				fontSize       = "40"
 				justification  = "center"
 				forgroundColor = "#345DE5"
 				value          = "wmpprop:player.settings.volume"
