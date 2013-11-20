@@ -114,7 +114,7 @@
 			<!-- skip buttons -->
 			<button
 				id           = "pre"
-				left         = "330"
+				left         = "329"
 				top          = "455"
 				image        = "skip_left_button.png"
 				mappingImage = "main_mask.png"
@@ -126,7 +126,7 @@
 			/>
 			<button
 				id           = "nxt"
-				left         = "620"
+				left         = "529"
 				top          = "455"
 				image        = "skip_right_button.png"
 				mappingImage = "main_mask.png"
