@@ -13,10 +13,10 @@
 
 			<!-- song title -->
 			<text
-				top             = "25"
+				top             = "15"
 				left            = "10"
 				width           = "500"
-				height          = "35"
+				height          = "45"
 				backgroundColor = "none"
 				foregroundColor = "#A2C17C"
 				fontSize        = "30"
@@ -34,9 +34,9 @@
 			<text 
 				id              = "time"
 				left            = "600"
-				top             = "50"
+				top             = "40"
 				width           = "100"
-				fontSize        = "40"
+				fontSize        = "20"
 				scrolling       = "false"
 				scrollingAmount = ""
 				scrollingDelay  = "10"
