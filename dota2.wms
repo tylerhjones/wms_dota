@@ -181,6 +181,16 @@
 				zindex       = "4"
 				onclick      = "player.settings.volume = player.settings.volume - 5"
 			/>
+
+			<!-- window buttons -->
+			<button
+				id="close"
+				left ="832"
+				top="10"
+				image="close.png"
+				zindex="4"
+				cursor="hand"
+			/>
 		</subview>
 
 	</view>
