@@ -13,12 +13,15 @@
 
 			<!-- song title -->
 			<text
-				top             = "10"
+				top             = "50"
 				left            = "10"
-				width           = "250"
+				width           = "400"
 				height          = "30"
 				backgroundColor = "none"
 				foregroundColor = "#A2C17C"
+				fontSize        = "40"
+				fontStyle       = "bold"
+				fontFace        = "arial narrow,arial,tahoma,verdana"
 				scrolling       = "true"
 				scrollingAmount = "1"
 				justification   = "left"
@@ -30,10 +33,10 @@
 			<!-- play time -->
 			<text 
 				id              = "time"
-				left            = "385"
+				left            = "600"
 				top             = "50"
 				width           = "100"
-				fontSize        = "20"
+				fontSize        = "40"
 				scrolling       = "false"
 				scrollingAmount = ""
 				scrollingDelay  = "10"
@@ -43,26 +46,26 @@
 				justification   = "center"
 				value           = "wmpprop:player.controls.currentPositionString"
 				fontFace        = "arial narrow,arial,tahoma,verdana"
+				zindex          = "2"
+			/>
+
+			<!-- the playlist -->
+			<playlist
+				id                         = "myPlaylist"
+				top                        = "100"
+				left                       = "30"
+				width                      = "450"
+				height                     = "350"
+				visible                    = "false"
+				enabled                    = "true"
+				dropDownVisible            = "false"
+				columns                    = "Name;Duration"
+				foregroundcolor            = "#7F7F7F"
+				itemPlayingBackgroundColor = "#6B201B"
+				zindex                     = "2"
 			/>
 		</subview>
 
-
-
-<!-- 		<text id="time"
-			left = "385"
-			top = "50"
-			width = "100"
-			fontSize ="20"
-			scrolling = "false"
-			scrollingAmount =""
-			scrollingDelay ="10"
-			fontSmoothing = "true"
-			foregroundColor = "#A2C17C"
-			fontStyle = "bold"
-			justification ="center"
-			value="wmpprop:player.controls.currentPositionString"
-			fontFace="arial narrow,arial,tahoma,verdana"
-		/> -->
 	</view>
 
 	<!-- current song name -->
