@@ -139,7 +139,7 @@
 				id           = "up"
 				left         = "832"
 				top          = "116"
-				image        = "volume_up_button2.png"
+				image        = "volume_up_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fe9900"
 				cursor       = "hand"
@@ -185,9 +185,9 @@
 			<!-- window buttons -->
 			<button
 				id="close"
-				left ="832"
+				left ="845"
 				top="10"
-				image="close.png"
+				image="close2.png"
 				zindex="4"
 				cursor="hand"
 			/>
