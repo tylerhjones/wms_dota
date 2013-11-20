@@ -3,8 +3,8 @@
 		id              = "main_view"
 		left            = "0"
 		top             = "0"
-		width           = "820"
-		height          = "800"
+		width           = "920"
+		height          = "600"
 		titlebar        = "false"
 		title           = "WMS_Dota"
 		backgroundColor = "none" >
@@ -67,7 +67,7 @@
 			/>
 
 			<!-- pause button -->
-			<button
+<!-- 			<button
 				id="pause"
 				top="400"
 				left="400"
@@ -76,7 +76,7 @@
 				mappingImage="pause_button.png"
 				mappingColor="#FF3399"
 				onClick="player.controls.pause()"
-			/>
+			/> -->
 		</subview>
 
 	</view>
