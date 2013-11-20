@@ -92,8 +92,8 @@
 			<!-- buttons -->
 			<button
 				id           = "pre"
-				left         = "600"
-				top          = "500"
+				left         = "530"
+				top          = "430"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fcf600"
