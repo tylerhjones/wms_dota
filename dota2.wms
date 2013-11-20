@@ -69,12 +69,12 @@
 			<!-- volume text -->
 			<text
 				id             = "volumeText"
-				top            = "240"
-				left           = "765"
+				top            = "238"
+				left           = "767"
 				width          = "200"
 				fontSize       = "40"
 				justification  = "center"
-				foregroundColor = "#345DE5"
+				foregroundColor = "#A2C17C"
 				value          = "wmpprop:player.settings.volume"
 				zindex         = "3"
 			/>
