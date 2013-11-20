@@ -9,7 +9,8 @@
 		title           = "WMS_Dota"
 		backgroundColor = "none" >
 		<subview
-			backgroundImage="main.png" >
+			backgroundImage = "main.png" 
+			clippingColor   = "#ff4af4">
 
 			<!-- song title -->
 			<text
