@@ -126,8 +126,8 @@
 			/>
 			<button
 				id           = "nxt"
-				left         = "470"
-				top          = "470"
+				left         = "530"
+				top          = "455"
 				image        = "skip_right_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fcf600"
