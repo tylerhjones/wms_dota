@@ -92,13 +92,16 @@
 			<!-- buttons -->
 			<button
 				id           = "pre"
+				left         = "0"
+				top          = "0"
+				image        = "main.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fcf600"
 				onclick      = "jscript:player.controls.previous()"
 				enabled      = "wmpenabled:player.controls.previous()"
 				cursor       = "hand"
 			/>
-			
+
 		</subview>
 
 	</view>
