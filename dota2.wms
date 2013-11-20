@@ -13,13 +13,13 @@
 
 			<!-- song title -->
 			<text
-				top             = "50"
+				top             = "25"
 				left            = "10"
-				width           = "400"
-				height          = "30"
+				width           = "500"
+				height          = "35"
 				backgroundColor = "none"
 				foregroundColor = "#A2C17C"
-				fontSize        = "40"
+				fontSize        = "30"
 				fontStyle       = "bold"
 				fontFace        = "arial narrow,arial,tahoma,verdana"
 				scrolling       = "true"
@@ -62,7 +62,7 @@
 				columns                    = "Name;Duration"
 				foregroundcolor            = "#7F7F7F"
 				itemPlayingBackgroundColor = "#6B201B"
-				zindex                     = "2"
+				zindex                     = "3"
 			/>
 		</subview>
 
