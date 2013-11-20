@@ -11,7 +11,23 @@
 		<subview
 			backgroundImage="main.png" >
 
-			
+			<!-- song title -->
+			<text
+				top             = "10"
+				left            = "10"
+				width           = "250"
+				height          = "30"
+				backgroundColor = "none"
+				foregroundColor = "#A2C17C"
+				scrolling       = "true"
+				scrollingAmount = "1"
+				justification   = "left"
+				scrollingDelay  = "50"
+				value           = "wmpprop:player.status"
+				zindex          = "2"
+			/>
+
+			<!-- play time -->
 			<text 
 				id              = "time"
 				left            = "385"
@@ -30,20 +46,7 @@
 			/>
 		</subview>
 
-		<TEXT
-			top             = "10"
-			left            = "10"
-			width           = "250"
-			height          = "30"
-			backgroundColor = "none"
-			foregroundColor = "#A2C17C"
-			scrolling       = "true"
-			scrollingAmount = "1"
-			justification   = "left"
-			scrollingDelay  = "50"
-			value           = "wmpprop:player.status"
-			zindex          = "2"
-		/>
+
 
 <!-- 		<text id="time"
 			left = "385"
