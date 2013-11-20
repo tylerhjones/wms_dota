@@ -172,8 +172,8 @@
 			/>
 			<button
 				id           = "shufl"
-				left         = "104"
-				top          = "454"
+				left         = "128"
+				top          = "455"
 				image        = "shuffle_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00f60a"
