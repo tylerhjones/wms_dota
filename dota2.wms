@@ -1,0 +1,16 @@
+<theme>
+	<view
+		id              = "main_view"
+		left            = "0"
+		top             = "0"
+		width           = "820"
+		height          = "504"
+		titlebar        = "false"
+		title           = "WMS_Dota"
+		backgroundColor = "none" >
+		<subview
+			backgroundImage="main.png" >
+		</subview>
+	</view>
+
+</theme>
