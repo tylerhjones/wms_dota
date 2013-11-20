@@ -185,7 +185,7 @@
 			<!-- window buttons -->
 			<button
 				id="close"
-				left ="845"
+				left ="860"
 				top="10"
 				image="close2.png"
 				zindex="4"
