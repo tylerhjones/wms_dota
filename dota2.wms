@@ -114,14 +114,15 @@
 			<!-- skip buttons -->
 			<button
 				id           = "pre"
-				left         = "400"
-				top          = "470"
+				left         = "335"
+				top          = "455"
 				image        = "skip_left_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fcf600"
 				cursor       = "hand"
 				onclick      = "jscript:player.controls.previous()"
 				enabled      = "wmpenabled:player.controls.previous()"
+				zindex       = "4"
 			/>
 			<button
 				id           = "nxt"
@@ -133,6 +134,7 @@
 				cursor       = "hand"
 				onclick      = "jscript:player.controls.next()"
 				enabled      = "wmpenabled:player.controls.next()"
+				zindex       = "4"
 			/>
 
 		</subview>
