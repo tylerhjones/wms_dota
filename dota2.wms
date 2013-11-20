@@ -10,8 +10,27 @@
 		backgroundColor = "none" >
 		<subview
 			backgroundImage="main.png" >
+
+			
+			<text 
+				id              = "time"
+				left            = "385"
+				top             = "50"
+				width           = "100"
+				fontSize        = "20"
+				scrolling       = "false"
+				scrollingAmount = ""
+				scrollingDelay  = "10"
+				fontSmoothing   = "true"
+				foregroundColor = "#A2C17C"
+				fontStyle       = "bold"
+				justification   = "center"
+				value           = "wmpprop:player.controls.currentPositionString"
+				fontFace        = "arial narrow,arial,tahoma,verdana"
+			/>
 		</subview>
-		<text
+
+		<TEXT
 			top             = "10"
 			left            = "10"
 			width           = "250"
@@ -19,11 +38,28 @@
 			backgroundColor = "none"
 			foregroundColor = "#A2C17C"
 			scrolling       = "true"
+			scrollingAmount = "1"
 			justification   = "left"
 			scrollingDelay  = "50"
 			value           = "wmpprop:player.status"
 			zindex          = "2"
 		/>
+
+<!-- 		<text id="time"
+			left = "385"
+			top = "50"
+			width = "100"
+			fontSize ="20"
+			scrolling = "false"
+			scrollingAmount =""
+			scrollingDelay ="10"
+			fontSmoothing = "true"
+			foregroundColor = "#A2C17C"
+			fontStyle = "bold"
+			justification ="center"
+			value="wmpprop:player.controls.currentPositionString"
+			fontFace="arial narrow,arial,tahoma,verdana"
+		/> -->
 	</view>
 
 	<!-- current song name -->
