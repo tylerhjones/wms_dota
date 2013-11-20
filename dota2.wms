@@ -89,16 +89,16 @@
 				zindex         = "3"
 			/>
 
-			<!-- buttons -->
+			<!-- play/pasue button -->
 			<button
-				id           = "pre"
+				id           = "play_pause"
 				left         = "430"
-				top          = "420"
+				top          = "423"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
-				mappingColor = "#fcf600"
-				onclick      = "jscript:player.controls.previous()"
-				enabled      = "wmpenabled:player.controls.previous()"
+				mappingColor = "#00fafa"
+				onclick      = "jscript:player.controls.stop()"
+				enabled      = "wmpenabled:player.controls.stop()"
 				cursor       = "hand"
 			/>
 
