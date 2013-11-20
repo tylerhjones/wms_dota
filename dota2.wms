@@ -90,15 +90,24 @@
 			/>
 
 			<!-- play/pasue button -->
+			<pausebutton
+				visible = "wmpenabled:player.controls.pause"
+				zindex  = "2"
+				left    = "430"
+				top     = "425"
+				cursor  = "hand"
+				image   = "play_pause_button.png"
+			/>
+
 			<button
-				id           = "play_pause"
+				id           = "play"
 				left         = "430"
-				top          = "423"
+				top          = "425"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00fafa"
-				onclick      = "jscript:player.controls.stop()"
-				enabled      = "wmpenabled:player.controls.stop()"
+				onclick      = "jscript:player.controls.play()"
+				enabled      = "wmpenabled:player.controls.play()"
 				cursor       = "hand"
 			/>
 
