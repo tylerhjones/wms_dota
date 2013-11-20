@@ -24,7 +24,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "70"
+				left            = "80"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -88,6 +88,17 @@
 				value          = "wmpprop:player.settings.volume"
 				zindex         = "3"
 			/>
+
+			<!-- buttons -->
+			<button
+				id           = "pre"
+				mappingImage = "main_mask.png"
+				mappingColor = "#fcf600"
+				onclick      = "jscript:player.controls.previous()"
+				enabled      = "wmpenabled:player.controls.previous()"
+				cursor       = "hand"
+			/>
+			
 		</subview>
 
 	</view>
