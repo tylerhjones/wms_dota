@@ -77,6 +77,18 @@
 				mappingColor="#FF3399"
 				onClick="player.controls.pause()"
 			/> -->
+
+			<!-- volume text -->
+			<text
+				id="volumeText"
+				top=""
+				left=""
+				width="200"
+				fontSize="17"
+				justification="center"
+				forgroundcolor="white"
+				value="wmpprop:player.settings.volume"
+			/>
 		</subview>
 
 	</view>
