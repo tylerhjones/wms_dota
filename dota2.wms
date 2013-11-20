@@ -32,10 +32,9 @@
 				fontSize        = "20"
 				fontStyle       = "bold"
 				fontFace        = "arial narrow,arial,tahoma,verdana"
-				scrolling       = "true"
-				scrollingAmount = "1"
+				
 				justification   = "left"
-				scrollingDelay  = "50"
+				
 				value           = "wmpprop:player.status"
 				zindex          = "2"
 			/>
