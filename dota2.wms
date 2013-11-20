@@ -1,3 +1,12 @@
+<!-- mask notes:
+  volume_down         = #00f771
+  volume_up           = #fe9900
+  play/pause          = #00fafa
+  skip_right          = #008efc
+  skip_left           = #fcf600
+  shuffle             = #00f60a
+  loop                = #ff2d83
+  background_clipping = #ff4af4 -->
 <theme>
 	<view
 		id              = "main_view"
@@ -15,7 +24,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "10"
+				left            = "30"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -59,7 +68,7 @@
 				height                     = "350"
 				visible                    = "false"
 				enabled                    = "true"
-				dropDownVisible            = "false"
+				dropDownVisible            = "true"
 				columns                    = "Name;Duration"
 				foregroundColor            = "#7F7F7F"
 				itemPlayingBackgroundColor = "#6B201B"
