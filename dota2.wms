@@ -19,7 +19,7 @@
 				height          = "45"
 				backgroundColor = "none"
 				foregroundColor = "#A2C17C"
-				fontSize        = "30"
+				fontSize        = "20"
 				fontStyle       = "bold"
 				fontFace        = "arial narrow,arial,tahoma,verdana"
 				scrolling       = "true"
@@ -63,6 +63,18 @@
 				foregroundcolor            = "#7F7F7F"
 				itemPlayingBackgroundColor = "#6B201B"
 				zindex                     = "3"
+			/>
+
+			<!-- pause button -->
+			<button
+				id="pause"
+				top="400"
+				left="400"
+				image="pause_button.png"
+				hoverImage="pause_button.png"
+				mappingImage="pause_button.png"
+				mappingColor="#FF3399"
+				onClick="player.controls.pause()"
 			/>
 		</subview>
 
