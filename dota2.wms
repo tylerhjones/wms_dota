@@ -24,7 +24,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "100"
+				left            = "150"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -32,9 +32,7 @@
 				fontSize        = "20"
 				fontStyle       = "bold"
 				fontFace        = "arial narrow,arial,tahoma,verdana"
-				
 				justification   = "left"
-				
 				value           = "wmpprop:player.status"
 				zindex          = "2"
 			/>
@@ -140,7 +138,7 @@
 			<button
 				id           = "up"
 				left         = "832"
-				top          = "115"
+				top          = "116"
 				image        = "volume_up_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#fe9900"
@@ -151,10 +149,34 @@
 			<button
 				id           = "down"
 				left         = "832"
-				top          = "336"
+				top          = "338"
 				image        = "volume_down_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00f771"
+				cursor       = "hand"
+				zindex       = "4"
+				onclick      = "player.settings.volume = player.settings.volume - 5"
+			/>
+
+			<!-- loop and shuffle buttons -->
+			<button
+				id           = "loop"
+				left         = "65"
+				top          = "414"
+				image        = "loop_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#ff2d83"
+				cursor       = "hand"
+				zindex       = "4"
+				onclick      = "player.settings.volume = player.settings.volume - 5"
+			/>
+			<button
+				id           = "shufl"
+				left         = "104"
+				top          = "454"
+				image        = "shuffle_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#00f60a"
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.volume = player.settings.volume - 5"
