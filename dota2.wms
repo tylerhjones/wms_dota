@@ -24,7 +24,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "80"
+				left            = "100"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -137,6 +137,29 @@
 				zindex       = "4"
 			/>
 
+			<!-- volume buttons -->
+			<button
+				id           = "up"
+				left         = "832"
+				top          = "115"
+				image        = "volume_up_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#fe9900"
+				cursor       = "hand"
+				zindex       = "4"
+				onclick      = "player.settings.volume = player.settings.volume + 5"
+			/>
+			<button
+				id           = "down"
+				left         = "832"
+				top          = "336"
+				image        = "volume_down_button.png"
+				mappingImage = "main_mask.png"
+				mappingColor = "#00f771"
+				cursor       = "hand"
+				zindex       = "4"
+				onclick      = "player.settings.volume = player.settings.volume - 5"
+			/>
 		</subview>
 
 	</view>
