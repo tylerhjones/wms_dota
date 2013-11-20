@@ -81,8 +81,8 @@
 			<!-- volume text -->
 			<text
 				id="volumeText"
-				top="430"
-				left="560"
+				top="330"
+				left="660"
 				width="200"
 				fontSize="17"
 				justification="center"
