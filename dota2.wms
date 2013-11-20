@@ -16,7 +16,7 @@
 			<text
 				top             = "15"
 				left            = "10"
-				width           = "500"
+				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
 				foregroundColor = "#A2C17C"
@@ -34,7 +34,7 @@
 			<!-- play time -->
 			<text 
 				id              = "time"
-				left            = "600"
+				left            = "700"
 				top             = "40"
 				width           = "100"
 				fontSize        = "20"
@@ -66,27 +66,15 @@
 				zindex                     = "3"
 			/>
 
-			<!-- pause button -->
-<!-- 			<button
-				id="pause"
-				top="400"
-				left="400"
-				image="pause_button.png"
-				hoverImage="pause_button.png"
-				mappingImage="pause_button.png"
-				mappingColor="#FF3399"
-				onClick="player.controls.pause()"
-			/> -->
-
 			<!-- volume text -->
 			<text
 				id             = "volumeText"
-				top            = "242"
-				left           = "763"
+				top            = "240"
+				left           = "765"
 				width          = "200"
 				fontSize       = "40"
 				justification  = "center"
-				forgroundColor = "#345DE5"
+				foregroundColor = "#345DE5"
 				value          = "wmpprop:player.settings.volume"
 				zindex         = "3"
 			/>
