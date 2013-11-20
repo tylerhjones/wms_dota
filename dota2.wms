@@ -24,7 +24,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "50"
+				left            = "70"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -43,7 +43,7 @@
 			<!-- play time -->
 			<text 
 				id              = "time"
-				left            = "750"
+				left            = "770"
 				top             = "40"
 				width           = "100"
 				fontSize        = "20"
@@ -62,13 +62,13 @@
 			<!-- the playlist -->
 			<playlist
 				id                         = "myPlaylist"
-				top                        = "100"
-				left                       = "30"
+				top                        = "110"
+				left                       = "70"
 				width                      = "450"
-				height                     = "350"
+				height                     = "320"
 				visible                    = "true"
 				enabled                    = "true"
-				dropDownVisible            = "true"
+				dropDownVisible            = "false"
 				columns                    = "Name;Duration"
 				foregroundColor            = "#7F7F7F"
 				itemPlayingBackgroundColor = "#6B201B"
