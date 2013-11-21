@@ -48,8 +48,8 @@
 			<!-- play time -->
 			<text 
 				id              = "time"
-				left            = "800"
-				top             = "60"
+				left            = "815"
+				top             = "57"
 				width           = "100"
 				fontSize        = "20"
 				scrolling       = "false"
@@ -220,7 +220,7 @@
 				id              = "seek"
 				top             = "60"
 				left            = "125"
-				width           = "685"
+				width           = "690"
 				height          = "25"
 				backgroundImage = "progress_bottom.png"
 				foregroundImage = "progress_top2.png"
