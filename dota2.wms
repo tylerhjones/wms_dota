@@ -35,6 +35,11 @@
 				justification   = "left"
 				value           = "wmpprop:player.status"
 				zindex          = "2"
+				scrolling       = "true"
+				scrollingAmount = "1"
+				scrollingDelay  = "18"
+				fontSmoothing   = "true"
+
 			/>
 
 			<!-- play time -->
@@ -184,13 +189,25 @@
 
 			<!-- window buttons -->
 			<button
-				id="close"
-				left ="884"
-				top="11"
-				image="close2.png"
-				zindex="4"
-				cursor="hand"
+				id      = "close"
+				left    = "884"
+				top     = "11"
+				image   = "close.png"
+				zindex  = "4"
+				cursor  = "hand"
+				onClick = "view.close();"
 			/>
+			<button
+				id      = "mini"
+				left    = "825"
+				top     = "11"
+				image   = "minimize.png"
+				zindex  = "4"
+				cursor  = "hand"
+				onClick = "view.minimize()"
+			/>
+
+
 		</subview>
 
 	</view>
