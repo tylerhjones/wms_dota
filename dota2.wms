@@ -227,9 +227,10 @@
 				thumbImage      = "slider_thumb.png"
 				enabled         = "wmpenabled:player.controls.seek"
 				value           = "wmpprop:player.controls.currentposition"
-            	ondragend = "player.controls.currentposition=value;"
-            	min       = "0"
-            	max       = "wmpprop:player.currentmedia.duration"
+            	ondragend           = "player.controls.currentposition=value;"
+            	min                 = "0"
+            	max                 = "wmpprop:player.currentmedia.duration"
+            	horizontalAlignment = "stretch"
 			/>
 
 
