@@ -215,6 +215,16 @@
 				onClick = "view.minimize()"
 			/>
 
+			<!-- seek slider -->
+			<seekslider
+				top             = "60"
+				left            = "150"
+				width           = "685"
+				height          = "25"
+				backgroundImage = "progress_bottom.png"
+				foregroundImage = "progress_top.png"
+			/>
+
 
 		</subview>
 
