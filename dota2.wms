@@ -216,7 +216,7 @@
 				width           = "685"
 				height          = "25"
 				backgroundImage = "progress_bottom.png"
-				foregroundImage = "progress_top2.png"
+				foregroundImage = "progress_top.png"
 				thumbImage      = "slider_thumb.png"
 				enabled         = "wmpenabled:player.controls.seek"
 				value           = "wmpprop:player.controls.currentposition"
