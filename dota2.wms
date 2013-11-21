@@ -104,7 +104,7 @@
 			<button
 				id           = "play"
 				left         = "429"
-				top          = "424"
+				top          = "427"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00fafa"
