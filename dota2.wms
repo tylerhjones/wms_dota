@@ -220,14 +220,16 @@
 				id              = "seek"
 				top             = "60"
 				left            = "125"
-				width           = "690"
+				width           = "685"
 				height          = "25"
 				backgroundImage = "progress_bottom.png"
 				foregroundImage = "progress_top2.png"
 				thumbImage      = "slider_thumb.png"
 				enabled         = "wmpenabled:player.controls.seek"
 				value           = "wmpprop:player.controls.currentposition"
-            	ondragend       = "player.controls.currentposition=value;"
+            	ondragend = "player.controls.currentposition=value;"
+            	min       = "0"
+            	max       = "wmpprop:player.currentmedia.duration"
 			/>
 
 
