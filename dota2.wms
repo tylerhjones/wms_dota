@@ -96,7 +96,7 @@
 				visible = "wmpenabled:player.controls.pause"
 				zindex  = "2"
 				left    = "429"
-				top     = "425"
+				top     = "426"
 				cursor  = "hand"
 				image   = "play_pause_button.png"
 			/>
@@ -199,7 +199,7 @@
 			/>
 			<button
 				id      = "mini"
-				left    = "845"
+				left    = "846"
 				top     = "11"
 				image   = "minimize.png"
 				zindex  = "4"
