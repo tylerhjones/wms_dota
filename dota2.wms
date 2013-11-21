@@ -226,6 +226,8 @@
 				foregroundImage = "progress_top2.png"
 				thumbImage      = "slider_thumb.png"
 				enabled         = "wmpenabled:player.controls.seek"
+				value           = "wmpprop:player.controls.currentposition"
+            	ondragend       = "player.controls.currentposition=value;"
 			/>
 
 
