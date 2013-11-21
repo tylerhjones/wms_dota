@@ -16,7 +16,10 @@
 		height          = "600"
 		titlebar        = "false"
 		title           = "WMS_Dota"
-		backgroundColor = "none" >
+		backgroundColor = "none" 
+		scriptFile      = "player.js"
+		onLoad          = "Init();"
+	>
 		<subview
 			backgroundImage = "main.png" 
 			clippingColor   = "#ff4af4">
