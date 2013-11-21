@@ -237,7 +237,7 @@
 			<button
 				id        = "mute"
 				left      = "840"
-				top       = "400"
+				top       = "430"
 				image     = "mute.png"
 				downImage = "mute_alt.png"
 				cursor    = "hand"
