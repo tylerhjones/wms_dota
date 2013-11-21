@@ -103,7 +103,7 @@
 
 			<button
 				id           = "play"
-				left         = "429"
+				left         = "427"
 				top          = "427"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
