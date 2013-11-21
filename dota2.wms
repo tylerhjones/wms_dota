@@ -27,7 +27,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "100"
+				left            = "125"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -48,8 +48,8 @@
 			<!-- play time -->
 			<text 
 				id              = "time"
-				left            = "770"
-				top             = "40"
+				left            = "800"
+				top             = "60"
 				width           = "100"
 				fontSize        = "20"
 				scrolling       = "false"
@@ -219,7 +219,7 @@
 			<slider
 				id              = "seek"
 				top             = "60"
-				left            = "100"
+				left            = "125"
 				width           = "685"
 				height          = "25"
 				backgroundImage = "progress_bottom.png"
