@@ -72,6 +72,7 @@
 				enabled                    = "true"
 				dropDownVisible            = "false"
 				columns                    = "Name;Artist;Duration"
+				columnsVisible             = "false"
 				foregroundColor            = "#7F7F7F"
 				itemPlayingBackgroundColor = "#6B201B"
 				BackgroundImage            = "list.png"
