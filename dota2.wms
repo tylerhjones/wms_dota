@@ -27,7 +27,7 @@
 			<!-- song title -->
 			<text
 				top             = "15"
-				left            = "150"
+				left            = "100"
 				width           = "570"
 				height          = "45"
 				backgroundColor = "none"
@@ -216,13 +216,16 @@
 			/>
 
 			<!-- seek slider -->
-			<seekslider
+			<slider
+				id              = "seek"
 				top             = "60"
-				left            = "150"
+				left            = "100"
 				width           = "685"
 				height          = "25"
 				backgroundImage = "progress_bottom.png"
-				foregroundImage = "progress_top.png"
+				foregroundImage = "progress_top2.png"
+				thumbImage      = "slider_thumb.png"
+				enabled         = "wmpenabled:player.controls.seek"
 			/>
 
 
