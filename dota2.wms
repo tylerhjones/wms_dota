@@ -169,22 +169,26 @@
 				left         = "65"
 				top          = "414"
 				image        = "loop_button.png"
+				downImage    = "loop_button_alt.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#ff2d83"
 				cursor       = "hand"
 				zindex       = "4"
-				onclick      = "player.settings.volume = player.settings.volume - 5"
+				onclick      = "player.settings.setMode('loop', down)"
+				sticky       = "true"
 			/>
 			<button
 				id           = "shufl"
 				left         = "128"
 				top          = "455"
 				image        = "shuffle_button.png"
+				downImage    = "shuffle_button_alt.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00f60a"
 				cursor       = "hand"
 				zindex       = "4"
-				onclick      = "player.settings.volume = player.settings.volume - 5"
+				onclick      = "player.settings.setMode('shuffle', down)"
+				sticky       = "true"
 			/>
 
 			<!-- window buttons -->
