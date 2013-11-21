@@ -81,7 +81,7 @@
 			<!-- volume text -->
 			<text
 				id             = "volumeText"
-				top            = "238"
+				top            = "233"
 				left           = "767"
 				width          = "200"
 				fontSize       = "40"
@@ -199,7 +199,7 @@
 			/>
 			<button
 				id      = "mini"
-				left    = "825"
+				left    = "855"
 				top     = "11"
 				image   = "minimize.png"
 				zindex  = "4"
