@@ -233,6 +233,19 @@
             	horizontalAlignment = "stretch"
 			/>
 
+			<!-- mute button -->
+			<button
+				id        = "mute"
+				left      = "832"
+				top       = "358"
+				image     = "mute.png"
+				downImage = "mute_alt.png"
+				cursor    = "hand"
+				zindex    = "4"
+				onclick   = "javascript:player.settings.mute=down;"
+				down      = "wmpprop:player.settings.mute"
+				sticky    = "true"
+			/>
 
 		</subview>
 
