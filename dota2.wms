@@ -110,8 +110,7 @@
 				left         = "427"
 				top          = "428"
 				image        = "play_pause_button.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#00fafa"
+
 				onclick      = "jscript:player.controls.play()"
 				enabled      = "wmpenabled:player.controls.play()"
 				cursor       = "hand"
@@ -123,8 +122,7 @@
 				left         = "328"
 				top          = "455"
 				image        = "skip_left_button.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#fcf600"
+
 				cursor       = "hand"
 				onclick      = "jscript:player.controls.previous()"
 				enabled      = "wmpenabled:player.controls.previous()"
@@ -135,8 +133,7 @@
 				left         = "579"
 				top          = "455"
 				image        = "skip_right_button.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#fcf600"
+
 				cursor       = "hand"
 				onclick      = "jscript:player.controls.next()"
 				enabled      = "wmpenabled:player.controls.next()"
@@ -149,8 +146,7 @@
 				left         = "832"
 				top          = "116"
 				image        = "volume_up_button.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#fe9900"
+
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.volume = player.settings.volume + 5"
@@ -160,8 +156,7 @@
 				left         = "832"
 				top          = "338"
 				image        = "volume_down_button.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#00f771"
+
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.volume = player.settings.volume - 5"
@@ -174,8 +169,7 @@
 				top          = "414"
 				image        = "loop_button.png"
 				downImage    = "loop_button_alt.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#ff2d83"
+
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.setMode('loop', down)"
@@ -187,8 +181,7 @@
 				top          = "455"
 				image        = "shuffle_button.png"
 				downImage    = "shuffle_button_alt.png"
-				mappingImage = "main_mask.png"
-				mappingColor = "#00f60a"
+
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.setMode('shuffle', down)"
