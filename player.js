@@ -1,8 +1,7 @@
 
 function Init()
 {
-	alert(playlist.columns);
 	playlist.setColumnResizeMode( 2, "Fixed" );
-	// playlist.setColumnWidth(2,"100")
+	playlist.setColumnWidth(2,"400")
 	// playlist.setColumnResizeMode( 1, "AutoSizeData" );
 }
