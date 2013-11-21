@@ -185,8 +185,8 @@
 			<!-- window buttons -->
 			<button
 				id="close"
-				left ="860"
-				top="10"
+				left ="880"
+				top="11"
 				image="close2.png"
 				zindex="4"
 				cursor="hand"
