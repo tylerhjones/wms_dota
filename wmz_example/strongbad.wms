@@ -1,0 +1,213 @@
+<!-- -->
+
+<theme
+	id								= "Strongbad"
+	author							= "John Dzado"
+	copyright						= "http://www.homestarrunner.com"
+	>
+	
+	<view
+		zIndex						= "0"
+		backgroundColor				= "none"
+		width						= "549"
+		height						= "387"
+		titleBar					= "false"
+		resizable					= "false"
+		scriptFile					= "strongbad.js;res://wmploc.dll/RT_TEXT/#132;"
+		onLoad						= "Init();"
+		onClose						= "OnClose();"
+		onmouseout="alphaBlendTo(40,300)"
+		onmouseover="alphaBlendTo(255,300)"
+		>		
+
+<PLAYER openstatechange="vwPlayer_OnOpenStateChange(NewState);"
+        modeChange="vwPlayer_UpdateShuffleRepeat();">
+        </PLAYER>
+
+
+		<subview
+			id						= "svMain"
+			zIndex					= "3"
+			left					= "0"
+			top						= "jscript:iBaseOffsetTop"
+			backgroundImage			= "img_base.bmp"
+			transparencyColor		= "#FF00FF"
+			>
+			
+			<!-- Display name of song playing -->
+			<text
+				fontStyle			= "bold"
+				value				= "Strongbad_Media_Player.exe"
+				left				= "72"
+				top					= "50"
+				width				= "200"
+				justification		= "left"
+				foregroundColor		= "#7CFC00"
+				hoverBackgroundColor = "#556B2F"
+				fontSize			= "10"
+				fontType			= "Veranda"
+				value				= "wmpprop:player.currentMedia.name"
+			/>
+			
+			<!-- Display time of song playing -->
+			<text
+				left				= "272"
+				top					= "50"
+				width				= "40"
+				justification		= "left"
+				foregroundColor		= "#7CFC00"
+				fontSize			= "10"
+				fontType			= "Veranda"
+				fontStyle			= "bold"
+				value				= "wmpprop:player.controls.currentPositionString"
+			/>
+			
+
+			<!--					-->
+			<!--	Play Controls	-->
+			<!--					-->
+
+			<buttongroup
+				left				= "185"
+				top					= "307"
+				zIndex				= "6"
+				mappingImage		= "btn_play_controls_colormap.bmp"
+				image				= "btn_play_controls_default.bmp"
+				hoverImage			= "btn_play_controls_rv.bmp"
+				downImage			= "btn_play_controls_down.bmp"
+				disabledImage		= "btn_play_controls_disabled.bmp"
+				>
+
+				<prevelement
+					mappingColor	= "#FF9900"
+				/>
+				
+				<pauseelement
+					mappingColor	= "#CC0000"
+				/>
+				
+				<playelement
+					mappingColor	= "#FF6600"
+					tabStop			= "wmpenabled:player.controls.play();"
+				/>
+				
+				<stopelement
+					mappingColor	= "#FFCC00"
+				/>
+				
+				<nextelement
+					mappingColor	= "#FF3300"
+				/>
+			</buttongroup>
+
+		<!--					-->
+		<!-- Progress bar 	    -->
+		<!--					-->
+		
+		<slider
+            id="seek" zindex="2"
+            left = "56"
+			top = "265"
+			width = "432"
+			height = "40"
+            thumbDownImage="btn_progress_slider_down.bmp"
+            thumbHoverImage="btn_progress_slider_rv.bmp"
+            thumbImage="btn_progress_slider_default.bmp"
+            borderSize="9"
+            transparencyColor="#FF00FF"
+            min="0"
+            toolTip="res://-/RT_STRING/#1809"
+            max="wmpprop:player.currentmedia.duration"
+            value="wmpprop:player.controls.currentposition"
+            ondragend="player.controls.currentposition=value;"
+            slide="false"
+            accName="res://-/RT_STRING/#2109"
+            accKeyboardShortcut="res://-/RT_STRING/#2108"
+            horizontalAlignment="stretch"
+            enabled="wmpenabled:player.controls.seek"
+            visible="wmpprop:seek.enabled"
+            />     
+
+		</subview>
+
+<subview>
+	<playlist
+				id				= "playlist"
+				left			= "72"
+				top				= "70"
+				width			= "400"
+				height			= "150"
+				dropDownVisible	= "true"
+				
+                visible			= "true"
+				backgroundImage = "face.bmp"
+				foregroundcolor	= "#7CFC00"
+				columnsVisible	= "false"
+				columns			= "name=Name;Duration=Time"
+				playlistItemsVisible = "true"
+			/>
+</subview>
+		<!--					-->
+		<!-- Minimize / Close	-->
+		<!--					-->
+
+		<subview
+			id						= "svMinClose"
+			left					= "480"
+			top						= "20"
+			width					= "70"
+			height					= "20"
+			zIndex					= "6"
+			visible					= "true"
+			>
+		
+			<button
+				left				= "25"
+				top					= "0"
+				image				= "btn_quit_default.bmp"
+				hoverImage			= "btn_quit_rv.bmp"
+				downImage			= "btn_quit_down.bmp"
+				transparencyColor	= "#FF00FF"
+				upToolTip			= "Close"
+				onClick				= "view.close();"
+			/>
+		
+			<button
+				left				= "0"
+				top					= "0"
+				image				= "btn_minimize_default.bmp"
+				hoverImage			= "btn_minimize_rv.bmp"
+				downImage			= "btn_minimize_down.bmp"
+				transparencyColor	= "#FF00FF"
+				upToolTip			= "Minimize"
+				onClick				= "view.minimize();"
+			/>
+		</subview>
+
+<subview
+id						= "svMinClose"
+			left					= "385"
+			top						= "315"
+			width					= "48"
+			height					= "48"
+			zIndex					= "6"
+			visible					= "true"
+			>          <!--           Repeat, Shuffle           -->
+            <button id="cmdShuffle"
+			transparencyColor="#FF00FF"
+                           mappingColor= "#0000FF"
+						   image				= "shuffle.bmp"
+						   hoverImage			= "shufflehover.bmp"
+						   downImage			= "shuffleon.bmp"
+                           uptoolTip="res://-/RT_STRING/#1814"
+                           downtooltip="res://-/RT_STRING/#1815"
+                           sticky="true"
+                           onclick="player.settings.setMode('shuffle', down);"/>
+</subview>
+
+
+	 </view>
+
+	 
+
+</theme>

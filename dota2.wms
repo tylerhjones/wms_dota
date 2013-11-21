@@ -104,7 +104,7 @@
 			<button
 				id           = "play"
 				left         = "427"
-				top          = "427"
+				top          = "428"
 				image        = "play_pause_button.png"
 				mappingImage = "main_mask.png"
 				mappingColor = "#00fafa"
@@ -116,7 +116,7 @@
 			<!-- skip buttons -->
 			<button
 				id           = "pre"
-				left         = "329"
+				left         = "328"
 				top          = "455"
 				image        = "skip_left_button.png"
 				mappingImage = "main_mask.png"
