@@ -65,6 +65,7 @@
 			/>
 
 			<!-- music selector -->
+			<automenu top="130" left="125" id="menu"/>
 			<button  
 				id                  = "selector"
 				top                 = "110"
