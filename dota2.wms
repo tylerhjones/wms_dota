@@ -180,9 +180,9 @@
 				thumbHoverImage   = "volume_slider_thumb.png"
 				direction         = "vertical"
 
-				onmousemove       = "if(VolumeSlider.visible)SetVolumeVisible(true);"
+				
 				ondragbegin       = "player.settings.mute=false;"
-				value_onchange    = "if(VolumeSlider.visible) { SetVolumeVisible(true); player.settings.volume=value; }"
+				value_onchange    = "player.settings.volume=value;"
 				visible           = "wmpprop:VolumeSlider.visible"
 				slide             = "false"
 				value             = "wmpprop:player.settings.volume"
