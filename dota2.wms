@@ -82,19 +82,6 @@
 				zindex                     = "3"
 			/>
 
-			<!-- volume text -->
-			<text
-				id             = "volumeText"
-				top            = "233"
-				left           = "767"
-				width          = "200"
-				fontSize       = "40"
-				justification  = "center"
-				foregroundColor = "#A2C17C"
-				value          = "wmpprop:player.settings.volume"
-				zindex         = "3"
-			/>
-
 			<!-- play/pasue button -->
 			<pausebutton
 				visible = "wmpenabled:player.controls.pause"
@@ -140,8 +127,21 @@
 				zindex       = "4"
 			/>
 
+			<!-- volume text -->
+<!-- 			<text
+				id             = "volumeText"
+				top            = "233"
+				left           = "767"
+				width          = "200"
+				fontSize       = "40"
+				justification  = "center"
+				foregroundColor = "#A2C17C"
+				value          = "wmpprop:player.settings.volume"
+				zindex         = "3"
+			/> -->
+
 			<!-- volume buttons -->
-			<button
+<!-- 			<button
 				id           = "up"
 				left         = "832"
 				top          = "116"
@@ -160,7 +160,32 @@
 				cursor       = "hand"
 				zindex       = "4"
 				onclick      = "player.settings.volume = player.settings.volume - 5"
+			/> -->
+
+			<!-- volume slider -->
+<!--   <SUBVIEW id="VolumeSlider"
+				        top="349" left="423"
+				        visible="true"
+				        height="36"	width="77">	 -->
+
+			<slider
+				id                = "VolumeSliderControl"
+				left              = "832"
+				top               = "116"
+				backgroundImage   = "volume_slider_background.png"
+				foregroundImage   = "volume_slider_foreground.png"
+
+
+				direction         = "vertical"
+
+				onmousemove       = "if(VolumeSlider.visible)SetVolumeVisible(true);"
+				ondragbegin       = "player.settings.mute=false;"
+				value_onchange    = "if(VolumeSlider.visible) { SetVolumeVisible(true); player.settings.volume=value; }"
+				visible           = "wmpprop:VolumeSlider.visible"
+				slide             = "false"
+				value             = "wmpprop:player.settings.volume"
 			/>
+<!-- 			</SUBVIEW> -->
 
 			<!-- loop and shuffle buttons -->
 			<button
