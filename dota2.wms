@@ -64,11 +64,22 @@
 				zindex          = "2"
 			/>
 
+			<!-- music selector -->
+			<button  
+				id      = "selector"
+				top     = "110"
+				left    = "110"
+				cursor  = "hand"
+				image   = "selector.png"
+				onclick = "menu.show('Play');"
+			/>
+
+
 			<!-- the playlist -->
 			<playlist
 				id                         = "myPlaylist"
 				top                        = "110"
-				left                       = "140"
+				left                       = "150"
 				width                      = "650"
 				height                     = "310"
 				visible                    = "true"
@@ -127,47 +138,7 @@
 				zindex       = "4"
 			/>
 
-			<!-- volume text -->
-<!-- 			<text
-				id             = "volumeText"
-				top            = "233"
-				left           = "767"
-				width          = "200"
-				fontSize       = "40"
-				justification  = "center"
-				foregroundColor = "#A2C17C"
-				value          = "wmpprop:player.settings.volume"
-				zindex         = "3"
-			/> -->
-
-			<!-- volume buttons -->
-<!-- 			<button
-				id           = "up"
-				left         = "832"
-				top          = "116"
-				image        = "volume_up_button.png"
-
-				cursor       = "hand"
-				zindex       = "4"
-				onclick      = "player.settings.volume = player.settings.volume + 5"
-			/>
-			<button
-				id           = "down"
-				left         = "832"
-				top          = "338"
-				image        = "volume_down_button.png"
-
-				cursor       = "hand"
-				zindex       = "4"
-				onclick      = "player.settings.volume = player.settings.volume - 5"
-			/> -->
-
 			<!-- volume slider -->
-<!--   <SUBVIEW id="VolumeSlider"
-				        top="349" left="423"
-				        visible="true"
-				        height="36"	width="77">	 -->
-
 			<slider
 				id                = "VolumeSliderControl"
 				left              = "800"
@@ -187,7 +158,6 @@
 				slide             = "false"
 				value             = "wmpprop:player.settings.volume"
 			/>
-<!-- 			</SUBVIEW> -->
 
 			<!-- loop and shuffle buttons -->
 			<button
