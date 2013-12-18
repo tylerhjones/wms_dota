@@ -175,7 +175,9 @@
 				backgroundImage   = "volume_slider_background.png"
 				foregroundImage   = "volume_slider_foreground.png"
 				transparencyColor = "#3ad7ff"
-
+				thumbImage        = "volume_slider_thumb.png"
+				thumbDownImage    = "volume_slider_thumb.png"
+				thumbHoverImage   = "volume_slider_thumb.png"
 				direction         = "vertical"
 
 				onmousemove       = "if(VolumeSlider.visible)SetVolumeVisible(true);"
