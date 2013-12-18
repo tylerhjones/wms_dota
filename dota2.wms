@@ -227,7 +227,7 @@
 			<!-- mute button -->
 			<button
 				id        = "mute"
-				left      = "843"
+				left      = "837"
 				top       = "430"
 				image     = "mute.png"
 				downImage = "mute_alt.png"
