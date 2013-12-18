@@ -170,11 +170,11 @@
 
 			<slider
 				id                = "VolumeSliderControl"
-				left              = "832"
+				left              = "800"
 				top               = "116"
 				backgroundImage   = "volume_slider_background.png"
 				foregroundImage   = "volume_slider_foreground.png"
-
+				transparencyColor = "#3ad7ff"
 
 				direction         = "vertical"
 
