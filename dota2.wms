@@ -65,18 +65,14 @@
 			/>
 
 			<!-- music selector -->
-			<automenu top="130" left="125" id="menu"/>
+			<automenu top="130" left="125" id="select"/>
 			<button  
 				id                  = "selector"
 				top                 = "110"
 				left                = "110"
 				cursor              = "hand"
-				upToolTip           = "res://-/RT_STRING/#1273"
-				downToolTip         = "res://-/RT_STRING/#1273"
-				accKeyboardShortcut = "res://-/RT_STRING/#2114"
-				accName             = "res://-/RT_STRING/#2150"
 				image               = "selector.png"
-				onclick             = "menu.show('Play');"
+				onclick             = "select.show('Play');"
 			/>
 
 
